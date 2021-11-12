@@ -36,6 +36,15 @@
 		<servlet-name>validateadmin</servlet-name>
 		<url-pattern>/valadmin</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>MVC.Controller.Register</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
 
 	<servlet>
 		<servlet-name>creatinguser</servlet-name>
